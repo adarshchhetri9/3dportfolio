@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { styles } from "../style";
 import { ComputersCanvas } from "./canvas";
+import { starbucks } from "../assets";
 
 const Hero = () => {
   return (
@@ -20,6 +21,17 @@ const Hero = () => {
             I am UI/UX Designer & Frontend Developer <br />
             And I develop Web Application
           </p>
+          <div className="sm:hidden inline">
+            <p className={`${styles.heroSubText} mt-5 text-white-100`}>
+              I am proficient enough to be called a Graphic designer, I am also
+              honing my abilities as a Web Developer.
+            </p>
+            <img
+              src={starbucks}
+              alt="home"
+              className="flex justify-center items-center mt-5 relative right-[18px]"
+            />
+          </div>
         </div>
       </div>
       <ComputersCanvas />

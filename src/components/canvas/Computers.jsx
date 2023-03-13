@@ -54,6 +54,7 @@ const ComputersCanvas = () => {
   }, []);
 
   return (
+    <>
     <div className="hidden sm:inline ">
       <Canvas
         frameloop="demand"
@@ -73,7 +74,10 @@ const ComputersCanvas = () => {
 
         <Preload all />
       </Canvas>
-    </div>
+      </div>
+      
+    </>
+    
   );
 };
 
