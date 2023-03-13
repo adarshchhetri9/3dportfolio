@@ -19,9 +19,9 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  Dell,
+  Paytm,
+  hoobank,
   threejs,
 } from "../assets";
 
@@ -174,9 +174,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Dell E",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to search Image with the help of AI and more over we have a open source community to post the image user search.",
     tags: [
       {
         name: "react",
@@ -191,50 +191,50 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: Dell,
+    source_code_link: "https://github.com/adarshchhetri9/dell-e_clone",
   },
   {
-    name: "Job IT",
+    name: "Paytm clone",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Paytm is an Indian multinational financial technology company, that specializes in digital payments and financial services and i have made a responsice clone with tailwind",
+    tags: [
+      {
+        name: "htmlL",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Paytm,
+    source_code_link: "https://github.com/adarshchhetri9/Paytm-Homepage",
+  },
+  {
+    name: "Hoo Bank",
+    description:
+      "Hoo bank is next generation payment method and i build and deploy a fully responsive Modern UI/UX website with React JS",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "figma",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: hoobank,
+    source_code_link: "https://github.com/adarshchhetri9/bank_mordern_app",
   },
 ];
 
